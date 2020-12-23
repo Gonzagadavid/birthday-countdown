@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  width: 100wh;
+  background-image: url(./img/imagem1.jpg);
+  background-size: 86rem 45rem;
+  transition: 1s; 
+}
+
+#saudacao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  font-size: 80px;
+  color: rgb(151, 111, 8);
+  margin-bottom: 30px;
+  font-family: happyBirthday;
+}
+
+.relogio {
+  display: none;
+  background-color: black;
+  color: white;
+  width: 90%;
+  opacity: 50%;
+  font-size: 40px;
+  font-family: DHF;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#dados{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  height: 400px;
+  width: 500px;
+  background-color: black;
+  opacity: 70%;
+  font-family: cursive;
+  color: aliceblue;
+  font-size: 17px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.niver{
+  font-size: 15px;
+  padding: 5px;
+}
+
+@font-face{
+  font-family: happyBirthday;
+  src: url(./font/happyBirthday.ttf);
+}
+ 
+@font-face{
+  font-family: DHF;
+  src: url(./font/DHF.ttf);
+}
+

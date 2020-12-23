@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Seu Aniversário</title>
+</head>
+<body>
+  <div id="saudacao"></div>
+  <div class="relogio">
+    <h2>Faltam <p></p> para o dia do seu aniversário</h2>
+  </div>
+  <div id="dados" >
+    <h3>Bem-vindo(a)!!!<br>por favor, preencha o seu nome e a data do seu nascimento</h3>
+    <form action="#">
+      <label for="nome">nome:</label><br>
+      <input type="text" id="nome" class="niver"><br><br>
+      <label for="dia">dia:</label><br>
+      <input type="number" id="dia" class="niver" max="31" min="1"><br><br>
+      <label for="mes">mês:</label><br>
+      <input type="number" id="mes" class="niver" max="12" min="1"><br><br>
+      <button id="btn" class="niver">OK</button>
+    </form>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
