@@ -7,10 +7,10 @@ body {
   width: 100wh;
   background-image: url(./img/imagem1.jpg);
   background-size: 86rem 45rem;
-  transition: 1s; 
+  transition: 0.5s; 
 }
 
-#saudacao{
+#salutation{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@ body {
   font-family: happyBirthday;
 }
 
-.relogio {
+.watch {
   display: none;
   background-color: black;
   color: white;
@@ -34,7 +34,7 @@ body {
   text-align: center;
 }
 
-#dados{
+#information{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,7 @@ body {
   padding-bottom: 10px;
 }
 
-.niver{
+.birthday{
   font-size: 15px;
   padding: 5px;
 }

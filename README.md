@@ -1,6 +1,6 @@
-# Contagem regressiva para o seu aniversário  :hourglass_flowing_sand: :birthday: :tada: :gift: 
+# Countdown to your birthday  :hourglass_flowing_sand: :birthday: :tada: :gift: 
 
 
 
-## Projeto pessoal criado para poder praticar o uso de métodos do objeto Date, podendo colocar em prática conhecimentos de  CSS-in-JS.
+## Personal project created to be able to practice using methods of the Date object, being able to put into practice knowledge of CSS-in-JS
 
