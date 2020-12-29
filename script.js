@@ -10,7 +10,6 @@
 
   btn.disabled = true
 
-  // checks if the name field has been filled in and calls the function that enables the ok button
   // verifica se o campo do nome foi preenchido e chama a função que habilita o botão ok
   name.addEventListener('input', checkName)
   function checkName () {
@@ -21,7 +20,6 @@
     }
   }
 
-  // checks if the day field was filled in correctly, and calls the function that enables the ok button
   // verifica se o campo do dia foi preenchido corretamente, e chama a função que habilita o botão ok
   day.addEventListener('input', checkDay)
   function checkDay () {
@@ -32,7 +30,6 @@
     }
   }
 
-  // check if the month field was filled in correctly, and call the function that enables the ok button
   // verifica se o campo do mes foi preenchido corretamente, e chama a função que habilita o botão ok
   month.addEventListener('input', checkMonth)
   function checkMonth () {
@@ -43,7 +40,6 @@
     }
   }
 
-  // check if all fields have been filled in and enable the ok button
   // verifica se todos os  campos foram preenchidos e habilita o botão ok
   function enableBtn () {
     if (name.value && day.value && month.value) {
@@ -53,7 +49,6 @@
     }
   }
 
-  // after the ok button is clicked, take out the form box, display the greeting to the user
   // após o botão ok ser clicado, tira a caixa de formulario, exibi a saudação ao usuário
   btn.addEventListener('click', startPage)
   function startPage (e) {
@@ -66,7 +61,6 @@
     document.querySelector('.watch').style.display = 'block'
   }
 
-  // transforms the first letter (s) of the user's name (s) in uppercase
   // tranforma a(s) primeira(s) letra(s) do(s) nome(s) do usuário em maiúscula
   function firtLetter (string) {
     return string
@@ -75,7 +69,6 @@
       .join(' ')
   }
 
-  // creates a Date object for the user's birthday and a Data object for current data and performs the calculation
   // cria um objeto Date para o aniversário do usuário e um objeto Date para a data atual e executa o calculo
   function regressiveTime () {
     const currentDate = new Date()
@@ -108,11 +101,9 @@
     document.querySelector('.watch p').style.fontSize = '45px'
   }
 
-  // performs a time countdown function every second
   // executa a função do calculo de tempo faltante a cada segundo
   setInterval(regressiveTime, 1000)
 
-  // change background images every 3 seconds
   // efetua a mudança de imagens de fundo a cada 3 second
   let i = 1
   function exchange () {

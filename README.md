@@ -2,5 +2,5 @@
 
 
 
-## Personal project created to be able to practice using methods of the Date object, being able to put into practice knowledge of CSS-in-JS
+## Projeto pessoal criado para utilizar métodos do objeto Date, colocando também em prática conhecimentos de CSS-in-JS
 
