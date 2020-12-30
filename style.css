@@ -7,7 +7,7 @@ body {
   width: 100wh;
   background-image: url(./img/imagem1.jpg);
   background-size: 86rem 45rem;
-  transition: 0.5s; 
+  transition: all 0.5s linear; 
 }
 
 #salutation{
